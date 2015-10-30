@@ -5058,7 +5058,8 @@ span.badge {
   .row:after {
     content: "";
     display: table;
-    clear: both; }
+    clear: both;
+    }
   .row .col {
     float: left;
     -webkit-box-sizing: border-box;

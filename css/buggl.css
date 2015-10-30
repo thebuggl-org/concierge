@@ -70,8 +70,8 @@ nav img{
     padding: 0;
 }
 #first-row{
-    margin-bottom: 0 !important;
-    z-index: 0;
+    /* margin-bottom: 0 !important; */
+    /* z-index: 0; */
 }
 .image h3{
     text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.7);
@@ -111,4 +111,8 @@ form button{
 }
 #destinations{
     z-index: 0;
+}
+
+#barra{
+    box-shadow: none;
 }
