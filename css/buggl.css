@@ -1,11 +1,23 @@
-.arriba{
-    box-shadow: 0px 0px 100px 70px white;
+.blurred-box{
+    box-shadow: 0px 0px 10rem 10rem white;
+    color:#777;
+    font-family: 'Yantramanav', sans-serif;//
+    height: 28rem;
+    padding: 7rem 0 7rem 0;
+    z-index: 1000;
 }
-/*
-.informacion{
-    border:2px solid grey;
-}*/
+.blurred-box h2{
+    position:relative;
+    font-size: 3rem;
+    font-weight: 500;
+    
+}
 
+.blurred-box h3{
+    position:relative;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
 .fucsia{
     background-color: #FD4F78;
 }
@@ -40,4 +52,63 @@ nav img{
     border-radius: 5px;
     height: 40px;
     line-height: 40px;
+}
+
+#steps-banner{
+    padding-top: 25%;
+}
+#desc h3{
+    font-size: 2rem;
+}
+#desc h4{
+    font-size: 1.5rem;
+}
+#desc img{
+    border:solid 4px;
+}
+#destinations img{
+    padding: 0;
+}
+#first-row{
+    margin-bottom: 0 !important;
+    z-index: 0;
+}
+.image h3{
+    text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    /*margin:3rem 0 0 5rem;*/
+    text-align: center;
+    /*clear: both;*/
+}
+
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+form{
+    margin-top: 7rem;
+}
+form button{
+    margin-top:2.5rem;
+}
+
+#social-icons{
+    margin-top: -5rem;
+    font-size: 2.5rem;
+    color: white;
+}
+#social-icons p{
+    font-size: 1.2rem;
+    font-weight:  lighter;
+}
+
+#blurred-form{
+    padding: 0;
+}
+#info-2{
+    z-index: 1000;
+}
+#destinations{
+    z-index: 0;
 }

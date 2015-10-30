@@ -7,10 +7,10 @@
         var altura=$("#barra").height();
         var alpha=$(window).scrollTop()/altura;
         if ($(window).scrollTop() <=altura) {
-            $("#barra").css("background-color", 'rgba(253,79,120,' + alpha/2 + ')');
+            $("#barra").css("background-color", 'rgba(253,79,120,' + alpha/4+  ')');
             $("#barra").html(color);
         }else{
-            $("#barra").css({"background-color": "rgba(253,79,120," + 1 + ")"});
+            $("#barra").css({"background-color": "rgba(253,79,120," + 0.6 + ")"});
         }
     })
 })(jQuery); // end of jQuery name space
