@@ -1774,7 +1774,8 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
-  border: 0; }
+  border: 0;
+  }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
@@ -5038,7 +5039,9 @@ span.badge {
 
 .container .row {
   margin-left: -0.75rem;
-  margin-right: -0.75rem; }
+  margin-right: -0.75rem;
+  /* z-index: 0 !important; */
+  }
 
 .section {
   padding-top: 1rem;
@@ -5065,7 +5068,8 @@ span.badge {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0 0.75rem; }
+    padding: 0 0.75rem;
+    }
     .row .col.s1 {
       width: 8.33333%;
       margin-left: 0; }
@@ -6286,7 +6290,8 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
     -moz-transition: .2s ease-out;
     -o-transition: .2s ease-out;
     -ms-transition: .2s ease-out;
-    transition: .2s ease-out; }
+    transition: .2s ease-out;
+    }
   .input-field label.active {
     font-size: 0.8rem;
     -webkit-transform: translateY(-140%);
