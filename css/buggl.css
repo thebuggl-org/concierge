@@ -46,12 +46,12 @@ nav img{
 }
 #boton-nav{
     background-color: rgba(0,0,0,0.15);
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     border:solid 1px rgba(255,255,255,0.8);
     box-shadow: none;
     border-radius: 5px;
-    height: 40px;
-    line-height: 40px;
+    /*height: 40px;*/
+    /*line-height: 40px;*/
 }
 
 #steps-banner{
@@ -70,7 +70,7 @@ nav img{
     padding: 0;
 }
 #first-row{
-    /* margin-bottom: 0 !important; */
+    margin-bottom: 0 !important;
     /* z-index: 0; */
 }
 .image h3{
