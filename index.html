@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>Buggl - Concierge</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>   
+        <meta name="author" content="Juan Sanchez">
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -21,13 +22,6 @@
     </head>
 
     <body>
-
-
-        <!--        <nav id="barra" class="row transparente">
-                    <img class="col s3" src="img/logo.png" alt="Logo">
-                    <a href="#"  class="btn-large waves-effect waves-light col s2 offset-s6"  id="boton-nav">Request an Itinerary</a>
-                </nav>-->
-
         <nav class="transparente" id="barra"  role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#" class="brand-logo"><img class="col s3" src="img/logo.png" alt="Logo"></a>
@@ -62,7 +56,7 @@
                 </div>
             </div>
             <div>
-                <div class="parallax "><img width="1366" src="img/header-bg.jpg" alt="Guide the travel you really want"></div>
+                <div class="parallax "><img class="responsive-img" src="img/header-bg.jpg" alt="Guide the travel you really want"></div>
             </div>
         </div>
         <!--informacion-->
@@ -77,23 +71,23 @@
             <div class="section no-pad-bot">
                 <div id="desc" class="container">
                     <br><br>
-                    <div class="row">
-                        <div class="col l3 s12 m6 center"> 
+                    <div class="row steps">
+                        <div class="col l3 s6 center"> 
                             <img class="circle" src="img/icon1.jpg"/>
                             <h3>Pick</h3>
                             <h4>Pick a destination you want to go</h4>
                         </div>
-                        <div class="col l3 s12 m6 center"> 
+                        <div class="col l3 s6 center"> 
                             <img class="circle" src="img/icon2.jpg"/>
                             <h3>Choose</h3>
                             <h4>Choose an expert we've vetted</h4>
                         </div>
-                        <div class="col l3 s12 m6 center"> 
+                        <div class="col l3 s6 center"> 
                             <img class="circle" src="img/icon3.jpg"/>
                             <h3>Request itinerary</h3>
                             <h4>Choose what kind of travel you want</h4>
                         </div>
-                        <div class="col l3 s12 m6 center"> 
+                        <div class="col l3 s6 center"> 
                             <img class="circle" src="img/icon4.jpg"/>
                             <h3>Receive</h3>
                             <h4>Receive a custom itinerary in less than a week</h4>
@@ -136,8 +130,11 @@
                 <h2>Going somewhere else?</h2>
                 <h3>Tell us where you're going and we'll find the best expert for you</h3>
             </div>
+
             <div class="row">
-                <form class="col s12 l8 offset-l2">
+                <div class="col s12 center" id="errores">
+                </div>
+                <form id="buggl_form" class="col s12 l8 offset-l2">
                     <div class="row">
                         <div class="input-field col s12 m6">
                             <input id="name" name="name" type="text" class="validate">
@@ -185,5 +182,7 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script src="js/init.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>

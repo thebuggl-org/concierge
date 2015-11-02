@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Concierge - Expert</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>        
-
+        <meta name="author" content="Juan Sanchez">
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
@@ -73,13 +73,9 @@
             </div>
             <!--Form-->
             <div class="container center">
-                <div id="errores">
-                </div>
-
-
                 <form id="buggl_form"><div class="row">
                         <!--Plan1-->
-                        <div class="col s4">
+                        <div class="col s12 m4">
                             <a href="#2-step-form" id="a-basic">
                                 <div class="card-panel unchecked">
                                     <input name="plan" type="radio" id="basic" value="basic"/>
@@ -117,7 +113,7 @@
                             </a>
                         </div>
                         <!--Plan2-->
-                        <div class="col s4">
+                        <div class="col s12 m4">
                             <a href="#2-step-form" id="a-premier">
                                 <div class="card-panel unchecked">
                                     <input name="plan" type="radio" id="premier" value="premier"/>
@@ -155,7 +151,7 @@
                             </a>
                         </div>
                         <!--Plan3-->
-                        <div class="col s4">
+                        <div class="col s12 m4">
                             <a href="#2-step-form" id="a-elite">
                                 <div class="card-panel unchecked">
                                     <input name="plan" type="radio" id="elite" value="elite"/>
@@ -192,6 +188,8 @@
                         </div>
                     </div>
                     <div id="2-step-form" class="row">
+                        <div class="col s12 center" id="errores">
+                        </div>
                         <div class="input-field col s12 m6">
                             <input id="name" name="name" type="text" class="validate">
                             <label for="last_name">Name</label>
@@ -247,7 +245,7 @@
         <div class="row blurred-box">
             <div class="col s12 l6 offset-l3  center container check-here">
                 <h2>Still haven't found what you want</h2>
-                <a><h3>Check it here</h3></a>
+                <a href="#"><h3>Check it here</h3></a>
             </div>
         </div>
         <!--Contenedor parallax 2-->
@@ -273,5 +271,8 @@
         <script src="js/radio.js"></script>
         <script src="js/expert.js"></script>
         <script src="js/radio.js"></script>
+        
+        
+        
     </body>
 </html>
