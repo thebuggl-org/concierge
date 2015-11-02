@@ -1974,7 +1974,8 @@ html {
   }
 
 ul {
-  list-style-type: none; }
+  list-style-type: circle;
+  }
 
 a {
   color: #039be5;
@@ -1997,7 +1998,8 @@ a {
 ul {
   padding: 0; }
   ul li {
-    list-style-type: none; }
+    /* list-style-type: circle; */
+    }
 
 .clearfix {
   clear: both; }
@@ -2523,7 +2525,8 @@ span.badge {
   text-align: right; }
 
 .center, .center-align {
-  text-align: center; }
+  text-align: center;
+  }
 
 .left {
   float: left !important; }
@@ -5433,6 +5436,7 @@ h2 {
   font-size: 3.56rem;
   line-height: 110%;
   position: absolute;
+  /* text-align: center; */
   /* margin: 1.78rem 0 1.424rem 0; */
   }
 
@@ -5545,7 +5549,8 @@ small {
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
-  background-color: #fff; }
+  background-color: #fff;
+  }
 
 .card {
   position: relative;
@@ -6415,7 +6420,8 @@ textarea {
   -moz-transition: .28s ease;
   -o-transition: .28s ease;
   -ms-transition: .28s ease;
-  transition: .28s ease; }
+  transition: .28s ease;
+  }
 
 /* Unchecked styles */
 [type="radio"]:not(:checked) + label:before {

@@ -16,18 +16,17 @@
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/buggl.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/expert.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
     </head>
 
     <body>
-
         <nav class="transparente" id="barra"  role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="#" class="brand-logo"><img class="col s3" src="img/logo.png" alt="Logo"></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#"  class="btn-large waves-effect waves-light col s2 offset-s6"  id="boton-nav">Request an Itinerary</a></li>
+                    <li><a href="#"  class="btn waves-effect waves-light col s2 offset-s6"  id="btn-nav">Request an Itinerary</a></li>
                 </ul>
-
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#">Navbar Link</a></li>
                 </ul>
@@ -40,74 +39,186 @@
             <div class="section no-pad-bot">
                 <div class="container">
                     <br><br>
-                    <div id="caja-opaca">
+                    <div id="caja-opaca" class="center">
+                        <div class="row" id="primer-frame">
+                            <h2 class="header col s12 light">Next destination, Thailand!</h2>                            
+                        </div>
+                        <div class="row">
+                            <img src="img/expert.fw.png" class="circle ">
+                        </div>
+                        <h1>Viviahn Page</h1>
+                        <div class="container">
+                            <h3>It's a long stablished fact that a reader will be distracted by the readable content of a page when looking at its layout</h3>
+                        </div>
+                        <div id="social-expert">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>
 
-                        <div class="row center" id="primer-frame">
-                            <h1 class="header col s12 light">Let us plan the perfect trip for you</h1>
-                        </div>
-                        <div class="row center">
-                            <a href="#"  class="btn-large waves-effect waves-light fucsia">Request an Itinerary</a>
-                        </div>
                     </div>
-
                     <br><br>
-
                 </div>
             </div>
             <div class="border">
-                <div class="parallax "><img width="1366" src="img/header-bg.jpg" alt="Guide the travel you really want"></div>
+                <div class="parallax "><img  src="img/header-expert-bg.jpg" alt="Guide the travel you really want"></div>
             </div>
         </div>
+
         <!--informacion-->
         <div class="row blurred-box">
             <div class="col s12 l6 offset-l3  center container">
-                <h2>Buggl Concierge connects you with a travel expert matched to you</h2>
-                <h3>It's like a dating site for travelers without the hand holding</h3>
+                <h2>Want to contact this guide?</h2>
+                <h3>Select one of the following plans and fill up the form</h3>
             </div>
-        </div>
-        <!--Contenedor parallax 2-->
-        <div id="steps-banner" class="parallax-container">
-            <div class="section no-pad-bot">
-                <div id="desc" class="container">
-                    <br><br>
-                    <div class="row">
-                        <div class="col l3 s12 m6 center"> 
-                            <img class="circle" src="img/icon1.jpg"/>
-                            <h3>Pick</h3>
-                            <h4>Pick a destination you want to go</h4>
-                        </div>
-                        <div class="col l3 s12 m6 center"> 
-                            <img class="circle" src="img/icon2.jpg"/>
-                            <h3>Choose</h3>
-                            <h4>Choose an expert we've vetted</h4>
-                        </div>
-                        <div class="col l3 s12 m6 center"> 
-                            <img class="circle" src="img/icon3.jpg"/>
-                            <h3>Request itinerary</h3>
-                            <h4>Choose what kind of travel you want</h4>
-                        </div>
-                        <div class="col l3 s12 m6 center"> 
-                            <img class="circle" src="img/icon4.jpg"/>
-                            <h3>Receive</h3>
-                            <h4>Receive a custom itinerary in less than a week</h4>
+            <!--Form-->
+            <div class="container center">
+                <div id="errores">
+                </div>
+
+                <div class="row">
+                    <!--Plan1-->
+                    <div class="col s4">
+                        <div class="card-panel unchecked">
+                            <h4>Basic Plan</h4> 
+                            <h5>$0</h5>
+                            <ul>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-check "></i>
+                                        </div>
+                                        <div class="di col s10">It is a long established fact</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-times "></i>
+                                        </div>
+                                        <div class="di col s10">That a reader will be distracted by the readable content of a page when</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-times "></i>
+                                        </div>
+                                        <div class="di col s10">Looking at its layout</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+
                         </div>
                     </div>
+                    <!--Plan2-->
+                    <div class="col s4">
+                        <div class="card-panel checked">
+                            <h4>Premier Plan</h4> 
+                            <h5>$49</h5>
+                            <ul>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-check "></i>
+                                        </div>
+                                        <div class="di col s10">It is a long established fact</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-check "></i>
+                                        </div>
+                                        <div class="di col s10">That a reader will be distracted by the readable content of a page when</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-times "></i>
+                                        </div>
+                                        <div class="di col s10">Looking at its layout</div>
+                                    </div>
+                                </li>
+                            </ul>
 
-                    <br><br>
 
+                        </div>
+                    </div>
+                    <!--Plan3-->
+                    <div class="col s4">
+                        <div class="card-panel unchecked">
+                            <h4>Elite Plan</h4> 
+                            <h5>$89</h5>
+                            <ul>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-check "></i>
+                                        </div>
+                                        <div class="di col s10">It is a long established fact</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-check "></i>
+                                        </div>
+                                        <div class="di col s10">That a reader will be distracted by the readable content of a page when</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div  class="row car">
+                                        <div class="lis col s1">
+                                            <i class="fa fa-check "></i>
+                                        </div>
+                                        <div class="di col s10">Looking at its layout</div>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <form id="buggl_form">
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <input id="name" name="name" type="text" class="validate">
+                                <label for="last_name">Name</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input id="destination" name="destination" type="text" class="validate">
+                                <label for="destination">Travel country and cities</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <input id="email" name="email" type="email" class="validate">
+                                <label for="last_name">Email</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input id="itinerary" name="itinerary" type="text" class="validate">
+                                <label for="itinerary">Kind of travel</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button class="btn-large waves-effect waves-light col s12 m4 offset-m4 blue lighten-1" type="submit" name="action" id="btn-send">Send Request</button>
+                        </div>
+
+                    </form>
                 </div>
             </div>
-            <div class="border">
-                <div class="parallax "><img width="1366" src="img/header-expert-bg.jpg" alt="Guide the travel you really want"></div>
-            </div>
-        </div>
-        <!--Info 2-->
-        <div id="info-2" class="row blurred-box">
             <div class="col s12 l6 offset-l3  center container">
-                <h2>Choose your destination</h2>
-                <h3>We have verified travel experts all over the world</h3>
+                <h2>Still haven't found what you want?</h2>
+                <h3>Choose another destination</h3>
             </div>
         </div>
+
+
+
+
 
         <div id="destinations" >
             <div id="first-row" class="row">
@@ -124,40 +235,10 @@
             </div>
         </div>
         <!--informacion-->
-        <div id="blurred-form" class="row blurred-box">
-            <div class="col s12 l6 offset-l3  center container">
-                <h2>Going somewhere else?</h2>
-                <h3>Tell us where you're going and we'll find the best expert for you</h3>
-            </div>
-            <div class="row">
-                <form class="col s12 l8 offset-l2">
-                    <div class="row">
-                        <div class="input-field col s12 m6">
-                            <input id="name" name="name" type="text" class="validate">
-                            <label for="last_name">Name</label>
-                        </div>
-                        <div class="input-field col s12 m6">
-                            <input id="destination" name="destination" type="text" class="validate">
-                            <label for="destination">Travel country and cities</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12 m6">
-                            <input id="email" name="email" type="email" class="validate">
-                            <label for="last_name">Email</label>
-                        </div>
-                        <div class="input-field col s12 m6">
-                            <input id="itinerary" name="itinerary" type="text" class="validate">
-                            <label for="itinerary">Kind of travel</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <button class="btn-large waves-effect waves-light col s12 m4 offset-m4" type="submit" name="action">Send Request
-                        </button>
-                    </div>
-
-
-                </form>
+        <div class="row blurred-box">
+            <div class="col s12 l6 offset-l3  center container check-here">
+                <h2>Still haven't found what you want</h2>
+                <a><h3>Check it here</h3></a>
             </div>
         </div>
         <!--Contenedor parallax 2-->
@@ -171,7 +252,7 @@
                 <i class="fa fa-facebook"></i>
                 <i class="fa fa-twitter"></i>
                 <i class="fa fa-linkedin"></i>
-                
+
             </div>
             <p class="col m5 offset-m2">©2015 Buggl, All Rights Reserved</p>
         </div>
