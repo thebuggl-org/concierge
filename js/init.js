@@ -5,13 +5,6 @@
     }); // end of document ready
     $(window).scroll(function () {
         var altura = $("#barra").height();
-        var alpha = $(window).scrollTop() / altura;
-//        if ($(window).scrollTop() <= altura) {
-//            $("#barra").css("background-color", 'rgba(253,79,120,' + alpha / 4 + ')');
-//            $("#barra").html(color);
-//        } else {
-//            $("#barra").css({"background-color": "rgba(253,79,120," + 0.6 + ")"});
-//        }
         if($(window).scrollTop()>0){
             $("#barra").css({"box-shadow": "0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)","background-color": "rgba(150,150,150," + 0.3 + ")"});
         }else{
